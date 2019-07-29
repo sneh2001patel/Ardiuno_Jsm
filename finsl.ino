@@ -37,7 +37,7 @@ void loop() {
   cm = (duration / 2) / 29.1;
   inches = (duration / 2) / 74;
 
-  if (cm <= 30) {
+  if (cm <= 50) {
 //    Serial.println("Jay Sawminarayan");
     tmrpcm.play("jsm.wav");
     delay(2000);
